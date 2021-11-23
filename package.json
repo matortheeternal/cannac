@@ -1,0 +1,31 @@
+{
+  "name": "cannac",
+  "version": "1.0.0",
+  "description": "Authorization library which restricts what resources a user is allowed to access.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matortheeternal/cannac.git"
+  },
+  "keywords": [
+    "authorization",
+    "access",
+    "permissions"
+  ],
+  "author": "mator",
+  "license": "MIT",
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
